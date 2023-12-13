@@ -36,7 +36,7 @@ metadata:
   name: default
 spec:
   amiFamily: AL2 # Amazon Linux 2
-  role: "KarpenterNodeRole-karpenter-eks-poc" # replace with your cluster name
+  role: "karpenter-eks-poc-eks-node-group-20231212151953718600000001" # replace with your cluster name
   subnetSelectorTerms:
     - tags:
         karpenter.sh/discovery: "karpenter-eks-poc" # replace with your cluster name
